@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" style="-fx-background-color: fc8621;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <GridPane fx:id="ustSira" prefHeight="205.0" prefWidth="848.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+            <ImageView fitHeight="210.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7">
+               <image>
+                  <Image url="@../foto/boskart.png" />
+               </image></ImageView>
+         </children>
+      </GridPane>
+   </top>
+   <bottom>
+      <GridPane fx:id="altSira" prefHeight="211.0" prefWidth="848.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="img1" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla1" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img2" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla2" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+            <ImageView fx:id="img3" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla3" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+            <ImageView fx:id="img4" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla4" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.columnSpan="2" />
+            <ImageView fx:id="img5" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+            <ImageView fx:id="img6" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla6" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+            <ImageView fx:id="img7" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla7" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" />
+            <ImageView fx:id="img8" fitHeight="210.0" fitWidth="128.0" onMouseClicked="#tikla8" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" />
+         </children>
+      </GridPane>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="304.0" prefWidth="827.0" style="-fx-background-color: #0e49b5;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="selected1" fitHeight="210.0" fitWidth="128.0" layoutX="264.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="selected2" fitHeight="210.0" fitWidth="128.0" layoutX="594.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="pozisyon" layoutX="437.0" layoutY="225.0" prefHeight="32.0" prefWidth="165.0" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.1407766990291262" startY="1.0">
+                     <stops>
+                        <Stop color="#682c0e" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="sb1" layoutX="793.0" layoutY="89.0" prefHeight="34.0" prefWidth="198.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                     <stops>
+                        <Stop color="#ffa700" />
+                        <Stop color="#fff600" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="sb2" layoutX="787.0" layoutY="159.0" prefHeight="37.0" prefWidth="199.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                     <stops>
+                        <Stop color="#ffc014" />
+                        <Stop color="#f0eb00" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="264.0" layoutY="14.0" prefHeight="33.0" prefWidth="120.0" text="Oyuncu">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ed9105" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="593.0" layoutY="12.0" prefHeight="34.0" prefWidth="149.0" text="Bilgisayar">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ed9105" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="tur" layoutX="27.0" layoutY="114.0" prefHeight="51.0" prefWidth="191.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
